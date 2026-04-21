@@ -48,6 +48,8 @@ const Icons = {
   Tree: (p) => <Ico {...p}><rect x="3" y="4" width="6" height="6" rx="1"/><rect x="15" y="14" width="6" height="6" rx="1"/><path d="M6 10v4a2 2 0 0 0 2 2h7"/></Ico>,
   Circle: (p) => <Ico {...p}><circle cx="12" cy="12" r="9"/></Ico>,
   Tag: (p) => <Ico {...p}><path d="M20.5 13.5L13 21l-9-9V4h8z"/><circle cx="8" cy="8" r="1.2"/></Ico>,
+  Trash: (p) => <Ico {...p}><path d="M3 6h18M8 6V4h8v2M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></Ico>,
+  Save: (p) => <Ico {...p}><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><path d="M17 21v-8H7v8M7 3v5h8"/></Ico>,
 };
 
 Object.assign(window, { Ico, Icons });

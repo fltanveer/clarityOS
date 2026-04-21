@@ -60,9 +60,9 @@ function PropertiesPane({ company, mode, onClose, onPatch, onUpdateMode }) {
           </Field>
           <Field label="STATUS" badge="SYSTEM">
             <select className="select" style={{ width: '100%', height: 38 }} value={form.status} onChange={e => handleChange('status', e.target.value)}>
-              <option value="Active">Active</option>
-              <option value="Inactive">Inactive</option>
-              <option value="Pending">Pending</option>
+              <option value="active">Active</option>
+              <option value="inactive">Inactive</option>
+              <option value="draft">Draft</option>
             </select>
           </Field>
         </div>
@@ -92,6 +92,9 @@ function PropertiesPane({ company, mode, onClose, onPatch, onUpdateMode }) {
           <div style={{ fontSize: 12, color: 'var(--muted-fg)', marginTop: -6, marginBottom: 12 }}>1-to-1 classifications for this companies</div>
           <Field label="COMPANY TYPES">
             <select className="select" style={{ width: '100%', height: 38 }} value={form.type} onChange={e => handleChange('type', e.target.value)}>
+              <option value="Enterprise">Enterprise</option>
+              <option value="SMB">SMB</option>
+              <option value="Group">Group</option>
               <option value="Type1">Type1</option>
               <option value="Type2">Type2</option>
               <option value="Type3">Type3</option>
