@@ -59,6 +59,11 @@ function App() {
     });
   }
 
+  const handleSelectCompany = (id) => {
+    setSelectedId(id);
+    setTweaks(s => ({ ...s, showProperties: true }));
+  };
+
   return (
     <div className="app">
       <Sidebar active={sidebarActive} onSelect={setSidebarActive} />
@@ -70,7 +75,7 @@ function App() {
           <TreePane
             companies={filtered}
             selectedId={selectedId}
-            onSelect={setSelectedId}
+            onSelect={handleSelectCompany}
             search={search}
             setSearch={setSearch}
           />
@@ -82,7 +87,7 @@ function App() {
             sort={sort}
             setSort={setSort}
             selectedId={selectedId}
-            onSelect={setSelectedId}
+            onSelect={handleSelectCompany}
             page={page}
             setPage={setPage}
             pageSize={pageSize}
