@@ -2,17 +2,17 @@
   --accent-h: 145;
   --radius: 6px;
 
-  /* light (shadcn) */
-  --bg: hsl(0 0% 100%);
-  --fg: hsl(240 10% 3.9%);
-  --muted: hsl(240 4.8% 95.9%);
-  --muted-fg: hsl(240 3.8% 46.1%);
-  --subtle: hsl(240 5% 98%);
-  --border: hsl(240 5.9% 90%);
-  --border-strong: hsl(240 5.9% 82%);
-  --card: hsl(0 0% 100%);
-  --hover: hsl(240 4.8% 95.9%);
-  --selected: hsl(240 4.8% 93%);
+  /* light green themed surfaces */
+  --bg: hsl(var(--accent-h) 25% 98.5%);
+  --fg: hsl(var(--accent-h) 40% 12%);
+  --muted: hsl(var(--accent-h) 20% 94%);
+  --muted-fg: hsl(var(--accent-h) 15% 40%);
+  --subtle: hsl(var(--accent-h) 20% 97%);
+  --border: hsl(var(--accent-h) 15% 90%);
+  --border-strong: hsl(var(--accent-h) 20% 84%);
+  --card: hsl(var(--accent-h) 25% 100%);
+  --hover: hsl(var(--accent-h) 25% 95%);
+  --selected: hsl(var(--accent-h) 25% 92%);
   --accent: hsl(var(--accent-h) 65% 45%);
   --accent-soft: hsl(var(--accent-h) 60% 94%);
   --accent-fg: hsl(0 0% 100%);
