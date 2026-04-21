@@ -1,5 +1,5 @@
 :root {
-  --accent-h: 142;
+  --accent-h: 145;
   --radius: 6px;
 
   /* light (shadcn) */
@@ -13,8 +13,8 @@
   --card: hsl(0 0% 100%);
   --hover: hsl(240 4.8% 95.9%);
   --selected: hsl(240 4.8% 93%);
-  --accent: hsl(var(--accent-h) 70% 42%);
-  --accent-soft: hsl(var(--accent-h) 70% 96%);
+  --accent: hsl(var(--accent-h) 65% 45%);
+  --accent-soft: hsl(var(--accent-h) 60% 94%);
   --accent-fg: hsl(0 0% 100%);
   --danger: hsl(0 72% 51%);
   --ring: hsl(var(--accent-h) 70% 42% / 0.25);
