@@ -92,6 +92,7 @@ function App() {
           {tweaks.showProperties && (
             <PropertiesPane
               company={selected}
+              mode={mode}
               onClose={() => setTweaks(s => ({ ...s, showProperties: false }))}
               onPatch={patchCompany}
             />
