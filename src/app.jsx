@@ -21,6 +21,11 @@ function App() {
   const [companies, setCompanies] = useState(INITIAL_COMPANIES);
   const [sidebarActive, setSidebarActive] = useState('metrics');
   const [mode, setMode] = useState('model');
+  
+  // Update hue based on mode
+  useEffect(() => {
+    setTweaks(s => ({ ...s, accentHue: mode === 'data' ? 221 : 145 }));
+  }, [mode]);
   const [tabs, setTabs] = useState(TABS);
   const [activeTab, setActiveTab] = useState('company');
   const [bottomTab, setBottomTab] = useState('companies');
