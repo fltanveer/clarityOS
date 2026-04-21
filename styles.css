@@ -2,19 +2,19 @@
   --accent-h: 145;
   --radius: 6px;
 
-  /* light green themed surfaces */
-  --bg: hsl(var(--accent-h) 25% 98.5%);
-  --fg: hsl(var(--accent-h) 40% 12%);
-  --muted: hsl(var(--accent-h) 20% 94%);
-  --muted-fg: hsl(var(--accent-h) 15% 40%);
-  --subtle: hsl(var(--accent-h) 20% 97%);
-  --border: hsl(var(--accent-h) 15% 90%);
-  --border-strong: hsl(var(--accent-h) 20% 84%);
-  --card: hsl(var(--accent-h) 25% 100%);
-  --hover: hsl(var(--accent-h) 25% 95%);
-  --selected: hsl(var(--accent-h) 25% 92%);
-  --accent: hsl(var(--accent-h) 65% 45%);
-  --accent-soft: hsl(var(--accent-h) 60% 94%);
+  /* Vibrant themed surfaces */
+  --bg: hsl(var(--accent-h) 40% 98%);
+  --fg: hsl(var(--accent-h) 60% 10%);
+  --muted: hsl(var(--accent-h) 45% 92%);
+  --muted-fg: hsl(var(--accent-h) 30% 35%);
+  --subtle: hsl(var(--accent-h) 45% 95.5%);
+  --border: hsl(var(--accent-h) 40% 86%);
+  --border-strong: hsl(var(--accent-h) 45% 78%);
+  --card: hsl(var(--accent-h) 40% 100%);
+  --hover: hsl(var(--accent-h) 50% 93%);
+  --selected: hsl(var(--accent-h) 50% 90%);
+  --accent: hsl(var(--accent-h) 85% 42%);
+  --accent-soft: hsl(var(--accent-h) 75% 92%);
   --accent-fg: hsl(0 0% 100%);
   --danger: hsl(0 72% 51%);
   --ring: hsl(var(--accent-h) 70% 42% / 0.25);
